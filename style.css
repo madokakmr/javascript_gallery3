@@ -1,8 +1,29 @@
 @charset "UTF-8";
 
+*{
+  margin: 0;
+  padding: 0;
+}
+
 h1 {
   text-align: center;
 }
+
+header {
+  background-image: url("images/mv_II.png");
+  background-size:cover;
+  background-repeat: no-repeat;
+background-position: center;
+height: 340px;
+  margin-bottom:50px;
+
+}
+
+main{
+  padding: 10px;
+  text-align: center;
+}
+
 
 #gallery {
   display: grid;
